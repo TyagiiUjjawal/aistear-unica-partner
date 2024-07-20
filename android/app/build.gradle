@@ -27,12 +27,12 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.AistearUnicaPartner"
+    namespace "com.aistearunica.partners"
     defaultConfig {
-        applicationId "com.AistearUnicaPartner"
+        applicationId "com.aistearunica.partners"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 6
+        versionCode 1
         versionName "1.0.0"
     }
     splits {

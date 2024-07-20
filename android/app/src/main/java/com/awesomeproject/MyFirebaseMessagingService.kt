@@ -1,4 +1,4 @@
-package com.AistearUnicaPartner
+package com.aistearunica.partners
 import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.app.PendingIntent

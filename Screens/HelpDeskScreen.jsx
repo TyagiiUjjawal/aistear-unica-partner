@@ -508,27 +508,6 @@ const HelpDeskScreen = () => {
   );
 };
 
-// const SubmissionConfirmation = ({onBackToRaiseQuery}) => {
-//   const navigation = useNavigation();
-
-//   return (
-//     <View style={styles.myEmpytQueryContainer}>
-//       <Text style={styles.confirmationText}>Ticket submitted!</Text>
-//       <Image source={ticketSubmitted} style={styles.QuerySubmissionContainer} />
-//       <View>
-//         <Text style={styles.confirmSubText}>
-//           Our awesome helper will be with you shortly:)
-//         </Text>
-//       </View>
-//       <TouchableOpacity
-//         style={styles.confirmButton}
-//         onPress={onBackToRaiseQuery}>
-//         <Text style={styles.confirmButtonText}>Got it, Thanks!</Text>
-//       </TouchableOpacity>
-//     </View>
-//   );
-// };
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,

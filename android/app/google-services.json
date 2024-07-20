@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:780782493776:android:1e58b7602ab443ce52b155",
         "android_client_info": {
-          "package_name": "com.AistearUnicaPartner"
+          "package_name": "com.aistearunica.partners"
         }
       },
       "oauth_client": [
@@ -17,7 +17,7 @@
           "client_id": "780782493776-sqg15r6uleanf0pe2aoeeotgvn2g8j0s.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.AistearUnicaPartner",
+            "package_name": "com.aistearunica.partners",
             "certificate_hash": "fd975a7bd7b6b7638cd7f2d66a3ccc5ed981611f"
           }
         },

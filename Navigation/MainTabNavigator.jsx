@@ -47,7 +47,7 @@ const MainTabNavigator = () => {
               style={[styles.tabIcon, focused && styles.tabIconFocused]}
             />
           ),
-headerBackVisible:false
+          headerBackVisible: false,
         }}
       />
       <Tab.Screen
@@ -72,40 +72,6 @@ headerBackVisible:false
               style={[styles.accTabIcon, focused && styles.tabIconFocused]}
             />
           ),
-          // header: () => (
-          //   <View
-          //     style={{
-          //       height: 111,
-          //       backgroundColor: 'white',
-          //       flexDirection: 'row',
-          //       paddingHorizontal: 20,
-          //       alignItems: 'center',
-          //     }}>
-          //     <TouchableOpacity onPress={() => nav.goBack()}>
-          //       <Text
-          //         style={{
-          //           fontFamily: 'Sora-Regular',
-          //           fontSize: 24,
-          //           lineHeight: 30.24,
-          //           textAlign: 'left',
-          //           color: 'black',
-          //         }}>
-          //         X
-          //       </Text>
-          //     </TouchableOpacity>
-          //     <Text
-          //       style={{
-          //         margin: 'auto',
-          //         fontFamily: 'Sora-Regular',
-          //         fontSize: 24,
-          //         lineHeight: 24.9,
-          //         textAlign: 'left',
-          //         color: 'black',
-          //       }}>
-          //       Account
-          //     </Text>
-          //   </View>
-          // ),
           headerShown: false,
         }}
       />

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Aistear Unica Partner</string>
+    <string name="app_name">Aistear Unica Partners</string>
     <string name="default_notification_channel_id">default_channel_id</string>
     <string name="fcm_message">You have a new message</string>
 </resources>

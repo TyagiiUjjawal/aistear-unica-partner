@@ -1,4 +1,4 @@
-package com.AistearUnicaPartner
+package com.aistearunica.partners
 
 import android.app.Application
 import com.facebook.react.PackageList
