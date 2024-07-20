@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "780782493776",
+    "project_id": "aistear-unica",
+    "storage_bucket": "aistear-unica.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780782493776:android:1e58b7602ab443ce52b155",
+        "android_client_info": {
+          "package_name": "com.AistearUnicaPartner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780782493776-sqg15r6uleanf0pe2aoeeotgvn2g8j0s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.AistearUnicaPartner",
+            "certificate_hash": "fd975a7bd7b6b7638cd7f2d66a3ccc5ed981611f"
+          }
+        },
+        {
+          "client_id": "780782493776-n776thugu162d4app9mjteemppujm953.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCieYbN_2Bf35GZ0o3cEjI3iqCP6kmJrpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780782493776-n776thugu162d4app9mjteemppujm953.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
