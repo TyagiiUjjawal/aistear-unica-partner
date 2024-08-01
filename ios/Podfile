@@ -1,11 +1,11 @@
-# Resolve react_native_pods.rb with node to allow for hoisting
+# Load react_native_pods.rb using Node.js to support hoisting
 require Pod::Executable.execute_command('node', ['-p',
   'require.resolve(
     "react-native/scripts/react_native_pods.rb",
     {paths: [process.argv[1]]},
   )', __dir__]).strip
 
-platform :ios, '11.0' # Update this if you support a different minimum iOS version
+platform :ios, '14.4.2'  # Update this to the minimum iOS version you support
 prepare_react_native_project!
 
 linkage = ENV['USE_FRAMEWORKS']
@@ -14,8 +14,10 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'AwesomeProject' do
+target 'AistearUnicaPartners' do
   config = use_native_modules!
+use_frameworks! :linkage => :static
+$RNFirebaseAsStaticFramework = true
 
   use_react_native!(
     :path => config[:reactNativePath],
@@ -28,8 +30,9 @@ target 'AwesomeProject' do
   pod 'Firebase/Messaging'
   pod 'GoogleMaps'
   pod 'Google-Maps-iOS-Utils'
+ 
 
-  target 'AwesomeProjectTests' do
+  target 'AistearUnicaPartnersTests' do
     inherit! :complete
     # Pods for testing
   end
